@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artel</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./img/arteltitle.PNG" type="image/png">
+    
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+        <div class="img1">
+            <img class="artel" src="./img/artelicon.png">
+        </div>
+        <div class="menu">
+            <h3>О КОМПАНИИ</h3>
+            <h3>tovarlar</h3>
+            <h3>servis</h3>
+            <h3>karyera</h3>
+            <h3 style="color: violet;">export</h3>
+            <h3 style="color: red;">shivaki</h3>
+            <h3 style="color: blue;"> samsung</h3>
+           
+        </div>
+        <div class="selectdiv" >
+            <select class="select1">
+                <option>o'zbekcha</option>
+                <option>ruscha</option>
+                <option>inglizcha</option>
+            </select>
+        </div>
+    </nav>
+    <!--navbar-->
+
+    <!-- <img opascity: 3; src=""> -->
+
+     <!--slide-->
+
+    <div class="fondiv" id="fondiv" >
+        <img class= "fon" src="./img/rasme69a18de-6b47-73ee-4330-ff706610fe6f.jpg">
+    </div>
+    <!--slide-->
+    
+    <!--card(kartochka)-->
+    <h3 style="text-align: center;">Eng ko'p sotilgan tovarlar</h3>
+    <div class="cards">
+
+    <div>
+        <img src="./img/gazplita.png">
+        <h5>gazplita</h5>
+    </div>
+
+    <div>
+        <img src="./img/konditsioner.png">
+        <h5>konditsioner</h5>
+    </div>
+
+    <div>
+        <img src="./img/pech.jpg">
+        <h5>pech</h5>
+    </div>
+
+    <div>
+        <img src="./img/myasorubka.jpg">
+        <h5>myasorubka</h5>
+    </div>
+
+    </div>
+    <!--card(kartochka)-->
+
+    <h3 style="text-align: center;">Nima uchun bizni tanlashingiz kerak?</h3>
+
+    <div class="medium_navbar"> 
+
+    <div class="medium_div"> 
+       
+        <img src="data:image/png;base64,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">
+        <span style="color: white; ">30dan ortiq servis
+            markazlar</span>
+    </div>
+
+    <div class="medium_div">
+       
+        <img src="data:image/png;base64,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">
+        <span style="color: white; ">O'z logistika markazi</span>
+    </div>
+
+    <div class="medium_div">
+        
+        <img src="data:image/png;base64,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">
+        <span style="color: white; ">Markaziy Osiyodagi eng yirik ishlab chiqaruvchi</span>
+    </div>
+
+    <div class="medium_div">
+        
+        <img width="70px" src="data:image/png;base64,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">
+        <span style="color: white; ">3 yillik to'liq kafolat</span>
+    </div>
+    </div>
+    <h1>So'nggi yangiliklar</h1>
+    <div class="news">
+
+        <div class="news_div">
+        <img src="./news img/Artel-компанияси-1.png" alt="">
+        <span>Artel kompaniyasi kitob targ'ib etadi</span>
+        <br><br>
+        <a href="#"><u>Ko'proq bilish</u></a>
+        </div>
+
+        <div class="news_div">
+        <img src="./news img/main.jpg" alt="">
+        <span>Yangi sovutgich yutib olish imkoniyatiga ega bo'ling</span>
+        <br><br>
+        <a text href="#"><u>Ko'proq bilish</u></a>
+        </div>
+
+        <div class="news_div">
+        <img src="./news img/px_1-111.jpg" alt="">
+        <span>Arteldan zamonaviy oshxonangiz uchun takliflar</span>
+        
+        <br><br>
+        <a href="#"><u>Ko'proq bilish</u></a>
+        </div>
+
+    </div>
+
+    <br><br><br>
+    
+        <div class="cards">
+
+            <div>
+                <img src="./img/gazplita.png">
+                <h5>gazplita</h5>
+            </div>
+        
+            <div>
+                <img src="./img/konditsioner.png">
+                <h5>konditsioner</h5>
+            </div>
+        
+            <div>
+                <img src="./img/pech.jpg">
+                <h5>pech</h5>
+            </div>     
+        
+        
+        </div>
+        <br><br><br>
+
+        <!-- feedback -->
+
+        <div class="feedback">
+
+            <div class="tel">
+                <a href="tel:+998 78 148-88-88" >+998 78 148-88-88</a><br>
+                <span>Yagona Call-center</span>
+            </div>
+
+            <div class="input1">
+                
+                <form>
+                    <input type="text" placeholder="Ismingiz"><br>
+                    <input type="text" placeholder="Familiyangiz">
+                </form>
+            </div>
+
+            <div class="input1">
+                <form>
+                    <input type="text" placeholder="yashash joyingiz"><br>
+                    <input type="text" placeholder="telefon raqamingiz">
+                </form>
+            </div>
+
+            <div class="button2">
+                <button class="button1">Yuborish</button>
+            </div>
+
+        </div>
+            
+        
+        <!-- feedback -->
+
+
+        <!-- footer -->
+        <footer class="footer">
+
+            <div class="footer1">
+                <a href="#">Katalog</a><br>
+                <a href="#">Maishiy texnika</a><br>
+                <a href="#">televizor</a><br>
+                <a href="#">smartfonlar</a><br>
+                <a href="#">konditsioner</a><br>
+            </div>
+
+            <div class="footer1">
+                <a href="#">Xizmat ko'rsatish</a><br>
+                <a href="#">Konditsionerlarni o'rnatish </a><br>
+                <a href="#">Xizmat ko'rsatish markazlari</a><br>
+                <a href="#">Yetkazib berish</a><br>
+                <a href="#">Servis markazlari xaritada</a><br>
+            </div>
+
+            <div class="footer1">
+                <a href="#">Hamkorlar</a><br>
+                <a href="#">Shivaki</a><br>
+                <a href="#">Samsung</a><br>
+                <a href="#">Royal</a><br>
+                <a href="#">LG</a><br>
+            </div>
+
+            <div></div>
+        </footer>
+
+        <!-- footer -->
+
+        <div class="credits">
+            <div class="credits1">
+                <a href="#">© Artel Group, 2021</a>
+            </div>
+
+            <div class="credits1">
+                <a href="#">Kompaniya haqida</a>
+            </div>
+
+            <div class="credits1">
+                <a href="#">Biz bilan bog'lanish</a>
+            </div>
+        </div>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- topbutton -->
+        <div class="topbutton">
+            <a href="#fondiv"> 
+                <svg   xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M374.6 246.6C368.4 252.9 360.2 256 352 256s-16.38-3.125-22.62-9.375L224 141.3V448c0 17.69-14.33 31.1-31.1 31.1S160 465.7 160 448V141.3L54.63 246.6c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0l160 160C387.1 213.9 387.1 234.1 374.6 246.6z"/></svg>
+            </a>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+
+    </pre>
+</body>
+</html>

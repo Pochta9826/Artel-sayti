@@ -1,0 +1,239 @@
+.navbar{
+    width: 97.4vw;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    display:grid;/*grid foiz berganda joy bo'lib beradi, div bitta obyekt deb hisoblaydi*/ 
+    grid-template-columns: 15% 77% 10%;
+    margin-left: -1.5%;
+    z-index: 1;
+
+}
+
+.img1{
+    text-align: center;
+
+    
+}
+.menu{
+    display:grid;
+    grid-template-columns: 20% 13% 11% 13% 13% 13% 13% 13%;
+    font-size: 1.3vw;
+    font-family: sans-serif;
+    
+    text-align: right;
+}
+
+.artel{
+    width: 97px;
+    height: 50px;
+    padding: 5% 4% 5% 4%;
+}
+.select1{
+    text-align: center;
+    padding: 5% 4% 5% 4%;
+
+}
+.selectdiv{
+    
+    padding: 9% 4% 5% 4%;
+}
+
+.fondiv{
+    width: 100%;
+    margin-left: -0.9%;
+}
+.fon{
+    width: 97vw;
+}
+.cards{
+    text-align:center;
+    width: 97vw;
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-gap: 1%;
+    
+}
+.cards img{
+   
+    text-align: center;
+    
+    width: 13vw;
+}
+.cards div{
+    border: 1px solid white;
+    padding: 1% 1% 1% 1%;
+    box-shadow: 3px 3px  5px grey;
+}
+.medium_navbar{
+    border: 1px solid #68BB46;
+    display: grid;
+    width: 96.2vw;
+    margin-left: -0.9vw;
+    padding: 0.9vw;
+    grid-template-columns: 24% 24% 24% 24%;
+    background-color:#68BB46;
+   
+    
+}
+.medium_div img{
+    width: 4vw;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 1vw;
+    
+  
+ 
+}
+.medium_div{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.news_div img{
+    
+    width: 30vw;
+   
+    
+}
+
+.news{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    
+    grid-gap: 1vw;
+}
+.news_div{
+   
+    text-align: center;
+    box-shadow: 3px 3px 5px grey ;
+    width: 30vw;
+}
+.news_div a{
+    text-decoration: none;
+    color: rgb(104,187,70);
+    
+}
+.news_div span{
+    font-weight: bold;
+    font-size: 1.7vw;
+}
+.news_div:hover{
+    transform: translateY(1vw);
+    transition: 1s;
+}
+.cards div:hover{
+
+   transform: scale(1.3); 
+   transition: 1s;
+   transition-delay: 0s;
+   /* transform: rotateX(180deg) ;*/
+    cursor: copy; 
+
+}
+
+.feedback{
+    text-align: center;
+    padding: 1vw;
+    line-height: 3vw;/*qatorlar orasidagi masofa*/
+    background-color: #68BB46;
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24% ;
+    width: 96.4vw;
+    margin-left: -1vw;
+    
+}
+.button1:hover{
+    background-color: #68BB46;
+    transition: 0.2s;
+    width: 25px;
+}
+
+
+
+.tel a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+}
+
+.tel span{
+    color: white;
+    font-weight: bold;
+
+}
+.input1 input{
+    border-radius: 5px;
+    border: 1px grey;
+    height: 2.5vw;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    background-color: rgb(75 74 74);
+    width: 98.4vw;
+    margin-left: -1vw;
+    text-align: left;
+   
+    
+}
+.footer1 a{
+    font-size: 1 rem;
+    text-decoration: none;
+    color: rgb(162, 167, 170) ;
+}
+.footer1 a:hover{
+    text-decoration: underline aliceblue;
+}
+.credits{
+    background-color: rgb(41, 40, 40);
+    width: 96.8vw;
+    display: grid;
+    grid-template-columns: 35% 35% 35%;
+    padding: 0.5vw;
+    margin-left: -0.4vw;
+}
+.credits1 a{
+    text-decoration: none;
+    color: rgb(122, 120, 120);
+    font-size: 0.9rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.topbutton{
+    width: 2.5vw;
+    height: 2.5vw;
+    --offset: -1000px;
+    position: sticky;
+    margin-left: 87vw;
+    margin-top: calc(100vh + var(--offset));
+    padding: 1.5vw;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 30px;
+    box-shadow: 5px 3px 10px grey;
+    
+}
